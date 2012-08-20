@@ -1,0 +1,26 @@
+---
+layout: blog
+---
+
+{% for post in paginator.posts %}
+  <article class="span12">
+    <div class="post-separator"><div class="blue-line"></div></div>
+    <header>
+    <h1>
+      {{ post.title }}
+      <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="{{ site.url }}{{ post.url }}" data-via="rulu" data-text="{{ post.title }}">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </h1>
+    </header>
+    <div class="row">
+      <aside class="span3">
+        <img src="/../assets/img/organizers/{{ post.twitter }}.png"
+        class="avatar">
+        <p>{{ post.date | date: "%b %d, %Y" }} by <a href="http://twitter.com/{{ post.twitter }}">{{ post.author }}</a></p>
+      </aside>
+      <div class="span9 content">
+        {{ post.content }}
+      </div>
+    </div>
+  </article>
+{% endfor %}
