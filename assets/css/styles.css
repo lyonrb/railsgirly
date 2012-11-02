@@ -36,10 +36,11 @@ footer p {
   font-size: 15px;
 }
 
-footer p .tagline {
+footer .tagline {
   font-size: 15px;
   font-family: 'Cabin Sketch', cursive;
   color: #bf341c;
+  padding-top: 5px;
 }
 
 a {
@@ -122,12 +123,13 @@ header p.blog_link a{
   background: url('../img/chalk-underline.png') bottom center no-repeat;
 }
 .home .span12 p {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 40px;
   margin-bottom: 40px;
+  text-align: center;
 }
 .home .span12 p a.label-info {
-  font-size:35px;
+  font-size:30px;
   padding: 10px;
   line-height: 50px;
   margin-right: 20px;
@@ -141,6 +143,7 @@ footer {
   background-color: #fff;
   height: 40px;
   padding-top: 10px;
+  text-align: center;
   -moz-box-shadow: 0px 0px 5px 0px #656565;
   -webkit-box-shadow: 0px 0px 5px 0px #656565;
   -o-box-shadow: 0px 0px 5px 0px #656565;
@@ -149,6 +152,22 @@ footer {
 }
 footer .container {
   position: relative;
+  font-size: 12px;
+}
+footer .container div:first-child {
+  text-align:left;
+}
+footer .container div:last-child {
+  text-align:right;
+  color: #000;
+}
+footer .container div:last-child a {
+  color: #bf341c;
+  font-weight: bold;
+}
+footer .container div:last-child i {
+  background: url('../img/coffee.png') left no-repeat;
+  padding-left: 20px;
 }
 footer .twitter {
   padding-left:25px;
@@ -156,5 +175,14 @@ footer .twitter {
 footer .twitter img {
   position: absolute;
   top: 6px;
-  left: 5px;
+  left: 25px;
+}
+.row.page {
+  padding-top: 30px;
+}
+.row.page h2 {
+  margin-bottom: 20px;
+}
+.row.page > p {
+  font-size: 12px;
 }
