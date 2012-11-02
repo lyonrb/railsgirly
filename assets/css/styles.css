@@ -1,743 +1,160 @@
-	font-family: 'CargoD';
-@font-face {
-	src: url('../fonts/202624_0_0.eot');
-	src: url('../fonts/202624_0_0.eot?#iefix') format('embedded-opentype'),
-	  url('../fonts/202624_0_0.woff') format('woff'),
-	  url('../fonts/202624_0_0.ttf') format('truetype');
-}
-
-/******************************************************************************
-  B A S E
-*******************************************************************************/
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Lucida Grande", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.4em;
-	letter-spacing: .1em;
-  color: #1A1412;
-  background-color: #edebe1;
-	background-image: url(../img/bg_pattern.png);
-}
-
 html {
-  min-height: 100%;
-	box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),inset 0 0 25px rgba(0,0,0,0.15);
-	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),inset 0 0 25px rgba(0,0,0,0.15);
-	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),inset 0 0 25px rgba(0,0,0,0.15);
+  background: #fefefc url('../img/scratches.png') top center;
+
+}
+body {
+  background: url('../img/border-top.png') top repeat-x;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #1b1b1b;
+  font-size: 21px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* L I N K S */
-/*************/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color:#1b1b1b;
+  font-family: 'Cabin Sketch', cursive;
+  letter-spacing: -1px;
+}
+
+/* Check Cabin Sketch web font : http://www.google.com/webfonts#UsePlace:use/Collection:Cabin+Sketch */
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3, h4, h5, h6 {
+  font-size: 21px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer p .tagline {
+  font-size: 15px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #bf341c;
+}
 
 a {
-	text-decoration: none;
-	color: #1A1412;
+  text-decoration: none;
+  color: #1c6d9a;
 }
 
 a:hover {
-	text-decoration: none;
-  color: #D00D04;
+  text-decoration: underline;
 }
 
-ul li {
-  font-size: 13px;
+head nav {
+  text-align: center;
 }
-
-/******************************************************************************
-  S T R U C T U R E
-*******************************************************************************/
-
-/* H E A D E R */
-/***************/
-
-body > div > header {
-	height: 144px;
-	margin-bottom: 50px;
+header nav #logo {
+  width: 106px;
+  height: 81px;
+  margin: 10px auto auto 20px;
+  text-align: center;
+  float: left;
 }
-
-body > div > header div:first-child {
-	float: left;
-	width: 35%;
-}
-
-header h1 {
-	font-family: "CargoD", "Lucida Grande", Arial, sans-serif;
-	font-size: 26px;
-  font-weight: 300;
-	margin-top: 58px;
-	text-transform: uppercase;
-	margin-left: 20px;
-}
-
-header #aka {
-  color: #AAA;
-	text-transform: none;
-}
-
-/* L O G O */
-
-#logo {
-	float: left;
-	width: 30%;
-	text-align: center;
-}
-
-#logo img {
-	margin: 0 0 0 23px;
-}
-
-
-/* N A V */
-
-header nav {
-	float: right;
-	width: 35%;
-	text-align: center;
-	margin-top: 66px;
-  text-align: right;
-}
-
 header nav ul {
-	list-style-type: none;
-}
-
-header nav ul li {
-	display: inline-block;
-	margin-left: 8px;
-	font-family: "Lucida Grande", Arial, sans-serif;
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: right;
-	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.45),0 -1px 0 rgba(255, 255, 255, 0.15);
-  color: #AAA;
-}
-
-header nav ul li a {
-  color: #1A1412;
-}
-
-/* B A N N E R */
-
-#banner div div {
-	text-align: center;
-	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.45),0 -1px 0 rgba(255, 255, 255, 0.15);
-}
-
-#banner div div:first-child {
-	text-align: left;
-}
-
-#banner div div:last-child {
-	text-align: right;
-}
-
-#banner div div:first-child p {
-	margin-left: 23px;
-	font-size: 14px;
-}
-
-#banner div div:last-child p {
-	margin-right: 64px;
-	font-size: 14px;
-}
-
-#date {
-	font-family: "CargoD", "Lucida Grande", Arial, sans-serif;
-	font-size: 48px;
-	margin-top: 12px;
-}
-
-#place {
-	font-family: "Lucida Grande", Arial, sans-serif;
-	font-size: 14px;
-  margin-top: 20px;
-}
-
-.video {
-  text-align: center;
-  margin-top: 25px;
-  padding-top: 20px;
-  background: #f2f1ea url(../img/bg_pattern.png);
-  -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
-  box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
-  margin-bottom: 25px;
-  padding-bottom: 20px;
-}
-
-
-.divider {
-	margin: 20px auto;
-	width: 97%;
-}
-
-.divider .wave {
-	float: left;
-	width: 47.5%;
-	height: 20px;
-	background-image: url(../img/divider.png);
-	background-repeat: repeat-x;
-	background-position: center;
-}
-
-.divider .ruby-small {
-	float: left;
-	width: 5%;
-	height: 20px;
-	background-image: url(../img/ruby_small.png);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.divider.full {
-  margin: 40px auto 10px auto;
-  width: 100%;
-}
-
-/* D E S C R I P T I O N */
-
-#description > p {
-	font-size: 21px;
-	line-height: 1.4em;
-	font-weight: 300;
-}
-
-#description a {
-	color: #D00D04;
-}
-
-#description strong {
-  font-weight: normal;
-  color: #D00D04;
-}
-
-#description blockquote {
-  margin-top: 50px;
-	border-left-color: #D00D04;
-}
-#description blockquote p {
-  line-height: 1.8em;
-}
-
-#description blockquote small {
-  margin-top: 20px;
-}
-
-#twitter {
-  margin-top: 80px;.
-}
-
-#twitter img {
-  vertical-align: bottom;
-}
-
-#twitter .twitter-follow-button {
-  float: right;
-  position: relative;
-  top: -30px;
-  right: -4px;
-}
-
-#description #tweet {
-  display: inline-block;
-  position: relative;
-  width: 90%;
-  padding: 5px;
-  top: -32px;
-  background: #cac8c0;
-  border: 1px solid #eee;
-}
-
-#description #photos {
-  position: relative;
-  left: -20px;
-  text-align: center;
-}
-
-#description #photos img {
-  margin: 20px 10px 10px 10px;
-  -webkit-transition: opacity 0.7s linear;
-  opacity: 0.55;
-}
-
-#description #photos img:hover {
-  -webkit-transition: opacity 0.7s linear;
-  opacity: 1;
-}
-
-/* S P O N S O R S */
-
-#sponsors .package {
-  position: relative;
-  border-top: 1px solid #ffffff;
-  background: #f2f1ea url(../img/bg_pattern.png);
-  margin: 0 0 20px 0;
-  -webkit-box-shadow: 0 4px 6px 1px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0 4px 6px 1px rgba(0,0,0,0.2);
-  box-shadow: 0 4px 6px 1px rgba(0,0,0,0.2);
-}
-
-#sponsors .package {
-  width: 100%;
-  padding-bottom: 10px;
-}
-
-#sponsors .package .ribon {
-  position: absolute;
-  top: -9px;
-  right: -9px;
-}
-
-.sponsoring-link {
-  text-align: center;
-}
-
-.sponsoring-link a {
-  color: #D00D04;
-}
-
-#sponsors .default-text {
-  padding: 20px;
-  text-align: center;
-  font-family: "Arial Black", sans-serif;
-  line-height: 100%;
-  font-size: 200%;
-}
-
-#sponsors .default-text a {
-  color: #aaa;
-  -webkit-transition: opacity 0.7s linear;
-  opacity: 0.55;
-}
-#sponsors .default-text a:hover {
-  -webkit-transition: opacity 0.7s linear;
-  opacity: 1;
-}
-
-#sponsors .available-slots {
-  color: #c5c5c5;
-  text-align: center;
-  padding-bottom: 20px
-}
-
-#sponsors .logo a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-#sponsors .logo {
-  margin: 35px auto;
-  text-align: center;
-}
-
-#sponsors #tigerlily-logo {
-  width: 137px;
-  height: 150px;
-  background: url('../img/sponsors/tigerlily.png') 0 0;
-}
-
-#sponsors #af83-logo {
-  width: 182px;
-  height: 74px;
-  background: url('../img/sponsors/af83.png') 0 0;
-}
-
-#sponsors #dnsimple-logo {
-  width: 200px;
-  height: 62px;
-  background: url('../img/sponsors/dnsimple.png') 0 0;
-}
-
-.sponsor-info {
-  display: block;
-  padding-bottom: 10px;
- }
-
-.sponsors #talks img {
-  float: right;
-  margin: 20px;
-
-}
-
-.sponsor-text {
-  text-align: justify;
-  margin: 30px;
- }
-
-#partners {
-  text-align: center;
-}
-
-#partners img {
-  vertical-align: middle;
-  margin: 0 10px 10px 10px;
-  -webkit-transition: opacity 0.7s linear;
-  opacity: 0.55;
-}
-#partners img:hover {
-  -webkit-transition: opacity 0.7s linear;
-  opacity: 1;
-}
-
-#conf-details {
-  margin-top: 25px;
-  padding-top: 20px;
-  background: #f2f1ea url(../img/bg_pattern.png);
-  -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
-  box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
-}
-
-#conf-details h2 {
-  margin-bottom: 15px;
-  font-family: "CargoD", "Lucida Grande", Arial, sans-serif;
-  font-size: 26px;
-  text-transform: uppercase;
-}
-
-#conf-details h3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#conf-details .description {
-  width: 95%;
-  padding: 20px;
-  font-size: 16px;
-  line-height: 1.8em;
-  font-weight: 25%;
-}
-
-
-#conf-details #venue-img {
-  margin-left: 65px;
-}
-
-#conf-details #koodeta-img {
-  margin-left: 15px;
-}
-
-
-#conf-details .slideshow {
-  width: 620px;
-  position: relative;
-  background: #fff url(../img/bg_pattern.png);
-  left: -20px;
-  padding: 0 10px;
-  margin-top: 50px;
-  text-align: center;
-}
-
-#conf-details #speakers {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  top: -50px;
-}
-
-#conf-details .slideshow .speaker {
-  display: inline-block;
-  width: 170px;
-}
-#conf-details .slideshow .speaker .speaker-info {
-  display: block;
-  text-align: center;
-}
-#conf-details .slideshow .speaker .speaker-info a {
-  color: #D00D04;
-}
-#conf-details .slideshow .speaker .speaker-info.author {
-  font-weight: bold;
-  margin-top: 10px;
-}
-#conf-details .slideshow .speaker .speaker-info.author.smaller {
-  font-size: 90%;
-}
-#conf-details .slideshow .speaker .speaker-info.github,
-#conf-details .slideshow .speaker .speaker-info.company,
-#conf-details .slideshow .speaker-info.twitter {
-  font-size: 10px;
-}
-
-
-#conf-details .slideshow .button {
-  display: inline-block;
-  position: relative;
-  top: 10px;
-  width: 35px;
-}
-#conf-details .slideshow .button a {
-  background: url(../img/slider_pagination.png);
-  display: inline-block;
-  width: 100%;
-  height: 100px;
-  position: relative;
-}
-#conf-details .slideshow .previous.button a {
-  left: -37px;
-  background-position: left top;
-}
-#conf-details .slideshow .next.button a {
-  right: -37px;
-  background-position: right top;
-}
-#conf-details .slideshow .previous.button a:hover {
-  background-position: -1px 97px;
-}
-#conf-details .slideshow .next.button a:hover {
-  background-position: right 97px;
-}
-
-
-#conf-details .slideshow .divider {
-  display: block;
-  height: 2px;
-  width: 80%;
-  margin: 4px auto;
-  padding: 0;
-  background: url('../img/stitches.png') repeat-x;
-}
-
-
-#conf-details .footer {
-  margin: 0 -10px;
-  background: #e8e8e8;
-  padding: 6px;
-}
-
-
-hr.spacer {
-  clear: both;
-  border: 0;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #fff;
-  width: 95%;
-  margin: 10px auto;
-}
-
-
-/** Speaker page **/
-
-#talks a {
-  text-decoration: underline;
-  color: #D00D04;
-}
-
-#talks article {
-  margin-bottom: 70px;
-  background: #f2f1ea url(../img/bg_pattern.png);
-  -webkit-box-shadow: 0 4px 6px 1px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0 4px 6px 1px rgba(0,0,0,0.2);
-  box-shadow: 0 4px 6px 1px rgba(0,0,0,0.2);
-}
-
-#talks article i {
-  color: #999;
-
-}
-
-#talks header h4 {
-  margin: 10px 0 0 10px;
-}
-
-#talks div:first-child p {
-  margin: 5px 10px 0 10px;
-}
-
-#talks header img {
-  float: right;
-  position: relative;
-  top: -20px;
-  right: 10px;
-}
-
-#talks h3 {
-  margin: 5px 0 5px 10px;
-  font-weight: bold;
-}
-#talks h3 span {
-  font-weight: normal;
-  color: #999;
-}
-#talks ul {
   list-style-type: none;
+  margin-top: 30px;
+  width: 400px;
 }
-#talks ul li {
-  margin-left: 10px;
+header nav ul li {
+  background: url('../img/stitches.png') top repeat-x;
+  padding-top: 10px;
 }
-
-#talks article > div:last-child p {
-  /* Bio */
-  margin: 10px;
-  font-style: italic;
-  color: #999;
+header nav ul.left {
+  float: left;
 }
-
-#talks article > div:last-child {
-  /* Bio */
-  margin-top: 20px;
+header nav ul.right {
+  float: right;  
 }
-
-#talks .tags-title, #talks .label {
-  position: relative;
-  top: 5px;
-}
-#talks .tags-title {
-  font-variant: small-caps;
-  margin-left: 10px;
-}
-
-#talks .speaker-info {
-  display: inline-block;
-  width: auto;
-  margin-left: -10px;
-  margin-right: 10px;
-}
-
-#talks .sidebar {
+header nav ul.left li {
+  text-align: right;  
   float: right;
-  display: block;
-  width: 110px;
 }
-
-
-#schedule table {
-  width: 90%;
-  margin: 0 auto;
-}
-
-#schedule #koodeta {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
-#schedule table:last-child {
-  margin-bottom: 80px;
-}
-
-#schedule table thead {
-  background: #f2f1ea url('../img/stitches.png') repeat-x top left;
-}
-
-#schedule table thead th {
-  font-family: "CargoD", "Lucida Grande", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 100;
+header nav ul.right li {
   text-align: left;
-  color: #D15854;
+  float: left;
 }
-
-#schedule table tr td,
-#schedule table th {
-  margin-top: 1px;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #fff;
-  padding: 10px;
-  color: #666;
-  font-size: 14px;
-}
-
-#schedule table a {
-  color: #666;
-}
-
-#schedule table a:hover {
-  color: #d00d04;
-  text-decoration: underline;
-}
-
-#schedule table tbody tr:nth-child(odd) {
-  color: #666;
-  text-align: left;
-}
-
-#schedule table tbody tr.talk {
-  background: url('../img/bg_schedule.png') repeat-x;
-  font-size: 18px;
-}
-
-#schedule table tbody tr.break td + td {
-  font-style: italic;
-}
-
-#schedule table tbody tr.break.lunch,
-#schedule table tbody tr.break.party {
-  background-color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
-}
-#schedule table tbody tr.break.breakfast {
-  text-align: left;
-}
-
-#schedule table thead th {
-  border: 0;
-  border-bottom: 1px solid #ccc;
-}
-
-#schedule tr.break.lunch td {
-  height: 4em;
-}
-
-#schedule h2 {
-  height: 70px;
-  font-family: "CargoD", "Lucida Grande", Arial, sans-serif;
-  font-size: 26px;
-  font-weight: 100;
+header nav ul li a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
   text-transform: uppercase;
-  margin-top: 10px;
-  padding-left: 70px;
-  padding-top: 15px;
-  margin-left: 50px;
-}
-
-
-#schedule h2#day-1 {
-  background: url('../img/day-1.png') no-repeat;
-}
-
-#schedule h2#party {
-  text-align: center;
-  padding-left: 0px;
-  margin-left: 0px;
-}
-
-#schedule h2#party a {
-  color: #D15854;
-}
-
-
-#schedule h2#day-2 {
-  background: url('../img/day-2.png') no-repeat;
-}
-
-section#conf-details.sharypic {
-  margin-top: 50px
-}
-
-#sharypic {
-  margin-bottom: 15px;
-  text-align: center;
-
-}
-
-.avatar.coverage {
-  position: relative;
-  text-align: center;
-}
-
-.avatar.coverage .coverage {
-  position: relative;
-  right: 5px;
-  top: -20px;
-}
-
-a.not.available {
-  color: gray !important;
+  background: url('../img/stitches.png') bottom repeat-x;
+  padding: 10px 20px;
   text-decoration: none !important;
+}
+header p.blog_link {
+  font-size: 15px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #bf341c;
+  text-transform: uppercase;
+  background: url('../img/nav-blog-sticker.png') no-repeat;
+  display: block;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 97px;
+  height: 30px;
+  padding-top: 6px;
+}
+header p.blog_link a{
+  background: url('../img/comment-icon.png') left no-repeat;
+  padding-left: 25px;
+  margin-left: 10px;
+}
+
+.home .row.sketch {
+  margin: 50px auto 30px auto;
+}
+.home h1.baseline {
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  padding-bottom: 30px;
+  background: url('../img/chalk-underline.png') bottom center no-repeat;
+}
+.home .span12 p {
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+.home .span12 p a.label-info {
+  font-size:35px;
+  padding: 10px;
+  line-height: 50px;
+  margin-right: 20px;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.home .span12 p a.label-info:hover {
+  background-color: #0c8ad2;
+}
+footer {
+  background-color: #fff;
+  height: 40px;
+  padding-top: 10px;
+  -moz-box-shadow: 0px 0px 5px 0px #656565;
+  -webkit-box-shadow: 0px 0px 5px 0px #656565;
+  -o-box-shadow: 0px 0px 5px 0px #656565;
+  box-shadow: 0px 0px 5px 0px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+}
+footer .container {
+  position: relative;
+}
+footer .twitter {
+  padding-left:25px;
+}
+footer .twitter img {
+  position: absolute;
+  top: 6px;
+  left: 5px;
 }
