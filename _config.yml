@@ -1,7 +1,0 @@
-auto: true
-server: true
-paginate: 20
-pigments: true
-name: RailsGrils Lyon 2013
-description: Démystifiez le développement Web et créons ensemble une application grâce à Ruby on Rails en juste 2 jours
-url: http://railsgirls.lyonrb.fr
