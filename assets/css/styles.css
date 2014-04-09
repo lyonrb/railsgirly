@@ -75,10 +75,10 @@ header nav ul.left {
   float: left;
 }
 header nav ul.right {
-  float: right;  
+  float: right;
 }
 header nav ul.left li {
-  text-align: right;  
+  text-align: right;
   float: right;
 }
 header nav ul.right li {
@@ -186,4 +186,9 @@ footer .twitter img {
 }
 .row.page > p {
   font-size: 12px;
+}
+
+/* hide menu for now */
+header nav ul {
+  visibility: hidden;
 }
