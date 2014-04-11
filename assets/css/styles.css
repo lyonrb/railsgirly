@@ -116,10 +116,12 @@ footer #social-icons {
 footer #social-icons #twitter {
   padding-left:25px;
   position: relative;
+  font-weight: bold;
 }
 footer #social-icons #twitter img {
   position: absolute;
-  top: 6px;
+  top: 50%;
+  margin-top: -8px;
   left: 4px;
 }
 footer #railsgirls-global a {
