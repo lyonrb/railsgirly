@@ -1,3 +1,0 @@
-source :rubygems
-
-gem 'twitter', '3.0.0.rc1'
