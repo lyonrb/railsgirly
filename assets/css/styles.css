@@ -2,13 +2,9 @@ html {
   background: #fefefc url('../img/scratches.png') top center no-repeat;
 
 }
+
 body {
-  background: url('../img/border-top.png') top repeat-x;
-  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
-  color: #1b1b1b;
-  font-size: 21px;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+    background: url('../img/border-top.png') top repeat-x;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -123,6 +119,11 @@ header p.blog_link a{
   background: url('../img/chalk-underline.png') bottom center no-repeat;
 }
 .home .span12 p, .home .span12 label {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  color: #1b1b1b;
+  font-size: 21px;
+  line-height: 1.5;
+
   font-size: 30px;
   line-height: 40px;
   margin-bottom: 40px;
