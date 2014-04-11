@@ -2,7 +2,6 @@ html {
   background: #fefefc url('../img/scratches.png') top center no-repeat;
 
 }
-
 body {
   background: url('../img/border-top.png') top repeat-x;
   font-family: Helvetica, Arial, sans-serif;
@@ -11,7 +10,9 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-
+::-webkit-selection { background: #bf341c; color: white; }
+   ::-moz-selection { background: #bf341c; color: white; }
+        ::selection { background: #bf341c; color: white; }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color:#1b1b1b;
@@ -95,6 +96,33 @@ header nav ul li a {
 }
 #home .icon-envelope {
   vertical-align: baseline;
+}
+
+#home #newsletter {
+  background: #bf341c;
+  border-radius: 5px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+#home #newsletter form {
+  margin-bottom: 8px;
+}
+#home #newsletter label {
+  color: white;
+  font-size: 16px;
+  line-height: 1em;
+  margin: 0;
+  margin-right: 4em;
+}
+#home #newsletter input {
+  padding: 1em;
+  border: none;
+}
+#home #newsletter input[type="submit"] {
+  background: white;
+  color: #bf341c;
+  font-weight: bold;
 }
 
 
