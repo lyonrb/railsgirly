@@ -109,7 +109,7 @@ header nav ul li a {
   text-align: center;
 }
 #home #newsletter form {
-  margin-bottom: 8px;
+  margin-bottom: 0;
 }
 #home #newsletter label {
   color: white;
@@ -136,6 +136,9 @@ header nav ul li a {
      -moz-border-radius: 50%;
           border-radius: 50%;
   border: solid 1px #1b1b1b;
+}
+#home #team .avatar.no-border {
+  border: none;
 }
 
 footer {
