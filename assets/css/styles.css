@@ -74,7 +74,7 @@ header nav ul li a {
 #home h1, #home h2 {
   text-align: center;
   font-family: 'Cabin Sketch', cursive;
-  padding-bottom: 30px;
+  padding: 50px 0;
 }
 #home h1 {
   background: url('../img/chalk-underline.png') bottom center no-repeat;
@@ -82,7 +82,6 @@ header nav ul li a {
 #home p, #home label {
   font-size: 30px;
   line-height: 40px;
-  margin-bottom: 40px;
   text-align: center;
 }
 #home p a.label-info {
@@ -102,7 +101,9 @@ header nav ul li a {
 
 #home #newsletter {
   background: #bf341c;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
@@ -127,6 +128,15 @@ header nav ul li a {
   font-weight: bold;
 }
 
+#home #team {
+  text-align: center;
+}
+#home #team .avatar {
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  border: solid 1px #1b1b1b;
+}
 
 footer {
   font-size: 12px;
