@@ -1,4 +1,4 @@
-# RailsGirls Lyon 2013 website
+# RailsGirls Lyon 2014 website
 
 ## Development environment
 
