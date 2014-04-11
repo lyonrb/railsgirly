@@ -5,7 +5,7 @@ html {
 body {
   background: url('../img/border-top.png') top repeat-x;
   font-family: Helvetica, Arial, sans-serif;
-  color: #444;
+  color: #666;
   font-size: 21px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -71,10 +71,12 @@ header nav ul li a {
 #home .row.sketch {
   margin: 50px auto 30px auto;
 }
-#home h1.baseline {
+#home h1, #home h2 {
   text-align: center;
   font-family: 'Cabin Sketch', cursive;
   padding-bottom: 30px;
+}
+#home h1 {
   background: url('../img/chalk-underline.png') bottom center no-repeat;
 }
 #home p, #home label {
@@ -116,7 +118,7 @@ header nav ul li a {
   margin-right: 4em;
 }
 #home #newsletter input {
-  padding: 1em;
+  padding: 0.8em;
   border: none;
 }
 #home #newsletter input[type="submit"] {
