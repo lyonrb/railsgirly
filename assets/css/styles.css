@@ -2,14 +2,14 @@ html {
   background: #fefefc url('../img/scratches.png') top center no-repeat;
 
 }
+
 body {
   background: url('../img/border-top.png') top repeat-x;
   font-family: Helvetica, Arial, sans-serif;
-  color: #1b1b1b;
+  color: #444;
   font-size: 21px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  color: #666;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,21 +18,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cabin Sketch', cursive;
   letter-spacing: -1px;
 }
-
-/* Check Cabin Sketch web font : http://www.google.com/webfonts#UsePlace:use/Collection:Cabin+Sketch */
-
 h1 {
   font-size: 42px;
 }
-
 h2 {
   font-size: 32px;
 }
-
 h3, h4, h5, h6 {
   font-size: 21px;
 }
-
 a {
   text-decoration: none;
   color: #1c6d9a;
@@ -40,7 +34,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+p, label {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 head nav {
   text-align: center;
