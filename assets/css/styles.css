@@ -49,24 +49,12 @@ header nav #logo {
   text-align: center;
   float: left;
 }
-header nav ul {
-  list-style-type: none;
-  margin-top: 30px;
-  width: 400px;
+header .twitter img {
+  margin-top: 1em;
 }
-header nav ul li {
-  background: url('../img/stitches.png') top repeat-x;
-  padding-top: 10px;
+header .twitter img:hover {
+  opacity: 0.8;
 }
-header nav ul li a {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  background: url('../img/stitches.png') bottom repeat-x;
-  padding: 10px 20px;
-  text-decoration: none !important;
-}
-
 
 #home .row.sketch {
   margin: 50px auto 30px auto;
