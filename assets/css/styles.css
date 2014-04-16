@@ -95,6 +95,7 @@ header .twitter img:hover {
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
+  margin-bottom: 30px;
 }
 #home #newsletter form {
   margin-bottom: 0;
