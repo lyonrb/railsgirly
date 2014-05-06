@@ -6,5 +6,5 @@
 - `cd` to the directory
 - Run `bundle install`
 - Run `sudo easy_install Pygments`
-- Fire up a console and run `jekyll` in the cloned repo
+- Fire up a console and run `jekyll serve` in the cloned repo
 - Open your browser and go to `http://localhost:4000`
