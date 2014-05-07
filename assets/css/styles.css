@@ -62,7 +62,7 @@ header .twitter img:hover {
 #home h1, #home h2 {
   text-align: center;
   font-family: 'Cabin Sketch', cursive;
-  padding: 50px 0;
+  padding: 50px 0 25px;
 }
 #home h1 {
   background: url('../img/chalk-underline.png') bottom center no-repeat;
@@ -128,6 +128,22 @@ header .twitter img:hover {
 }
 #home #team .avatar.no-border {
   border: none;
+}
+
+#home #programme p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+}
+#home #programme h3 {
+  display: inline-block;
+  font-size: 24px;
+  margin: 1.5em 0 1em;
+}
+#home #programme time {
+  font-style: italic;
+  font-size: 18px;
+  color: #999;
 }
 
 footer {
