@@ -9,19 +9,20 @@ layout: page
     <h1 class="baseline">Rails Girls à Lyon<br>20 &amp; 21 juin</h1>
   </section>
 
+  <section class="row" id="intro">
+      <p>
+        Démystifiez le développement web et créons ensemble une application avec Ruby on Rails en seulement une journée&nbsp;!
+      </p>
+      <h2>Gratuit et ouvert à toutes et à tous</h2>
+  </section>
+
   <section class="row" id="newsletter">
     <div class="span12">
       {% include newsletter_form.html %}
     </div>
   </section>
 
-  <section class="row" id="intro">
-      <p>
-        Démystifiez le développement web et créons ensemble une application avec Ruby on Rails en seulement une journée&nbsp;!
-      </p>
-      <p>Gratuit et ouvert à toutes et à tous</p>
-  </section>
-
+  {% include objectif.html %}
   {% include programme.html %}
   {% include team.html %}
 

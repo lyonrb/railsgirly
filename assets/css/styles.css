@@ -87,6 +87,16 @@ header .twitter img:hover {
   vertical-align: baseline;
 }
 
+#home #objectif p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+
+#home #intro h2 {
+  padding-top: 25px;
+}
+
 #home #newsletter {
   background: #bf341c;
   -webkit-border-radius: 5px;
