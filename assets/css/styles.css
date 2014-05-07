@@ -67,10 +67,10 @@ header .twitter img:hover {
 #home h1 {
   background: url('../img/chalk-underline.png') bottom center no-repeat;
 }
-#home p, #home label {
-  font-size: 30px;
-  line-height: 40px;
-  text-align: center;
+#home p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
 }
 #home p a.label-info {
   font-size:30px;
@@ -87,14 +87,13 @@ header .twitter img:hover {
   vertical-align: baseline;
 }
 
-#home #objectif p {
-  font-size: 16px;
-  line-height: 20px;
-  text-align: left;
-}
-
 #home #intro h2 {
   padding-top: 25px;
+}
+#home #intro p, #home #intro label {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
 }
 
 #home #newsletter {
@@ -140,11 +139,6 @@ header .twitter img:hover {
   border: none;
 }
 
-#home #programme p {
-  text-align: left;
-  font-size: 16px;
-  line-height: 20px;
-}
 #home #programme h3 {
   display: inline-block;
   font-size: 24px;
