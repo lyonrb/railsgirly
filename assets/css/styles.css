@@ -151,8 +151,12 @@ header .twitter img:hover {
   color: #999;
 }
 
-#home .partner-logo {
+#home #partenaires .partner-logo {
   text-align: center;
+}
+
+#home #infos h3 {
+  margin: 1.5em 0;
 }
 
 footer {
