@@ -150,6 +150,10 @@ header .twitter img:hover {
   color: #999;
 }
 
+#home .partner-logo {
+  text-align: center;
+}
+
 footer {
   font-size: 12px;
   background-color: #fff;
