@@ -49,11 +49,15 @@ header nav #logo {
   text-align: center;
   float: left;
 }
-header .twitter img {
-  margin-top: 1em;
+header .social-icon {
+  text-decoration: none;
 }
-header .twitter img:hover {
+header .social-icon img {
+  margin-top: 1em;
   opacity: 0.8;
+}
+header .social-icon img:hover {
+  opacity: 1;
 }
 
 #home .row.sketch {
