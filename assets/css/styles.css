@@ -62,6 +62,7 @@ header .social-icon img:hover {
 
 #home .row.sketch {
   margin: 50px auto 30px auto;
+  text-align: center;
 }
 #home h1, #home h2 {
   text-align: center;
@@ -142,6 +143,10 @@ header .social-icon img:hover {
 }
 #home #team .avatar.no-border {
   border: none;
+}
+#home #team .member-name {
+  display: block;
+  margin-bottom: 20px;
 }
 
 #home #programme h3 {
