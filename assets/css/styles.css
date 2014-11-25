@@ -160,8 +160,29 @@ header .social-icon img:hover {
   color: #999;
 }
 
-#home #partenaires .partner-logo {
+#partenaires .partner-logo, #partenaires .partner-logo p {
   text-align: center;
+}
+
+#partenaires .partner-callout {
+  width:250px;
+  height:130px;
+  border: 2px dashed #666;
+  border-radius: 30px;
+  display:block;
+  text-align: center;
+  line-height:125px; /* ~magic~ */
+
+}
+
+#partenaires .partner-callout a {
+  vertical-align:middle;
+  font-size:130%;
+  color:#444;
+}
+
+#partenaires .buffer-top {
+  padding-top:40px;
 }
 
 #home #infos h3 {
