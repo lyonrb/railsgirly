@@ -140,6 +140,8 @@ header .social-icon img:hover {
      -moz-border-radius: 50%;
           border-radius: 50%;
   border: solid 1px #1b1b1b;
+  height: 128px;
+  width: 128px;
 }
 #home #team .avatar.no-border {
   border: none;
