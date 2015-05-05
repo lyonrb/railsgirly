@@ -166,6 +166,10 @@ header .social-icon img:hover {
   text-align: center;
 }
 
+#partenaires .partner-logo.partner-small img {
+  max-width: 80%;
+}
+
 #partenaires .partner-callout {
   width:250px;
   height:130px;
