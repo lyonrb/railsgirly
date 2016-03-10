@@ -5,7 +5,6 @@ html {
 body {
   background: url('../img/border-top.png') top repeat-x;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #666;
   font-size: 21px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
