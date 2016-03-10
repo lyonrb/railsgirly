@@ -93,6 +93,7 @@ header .social-icon img:hover {
 }
 
 #home #intro h2 {
+  font-family: "Cabin Sketch", cursive;
   padding-top: 25px;
 }
 #home #intro p, #home #intro label {
