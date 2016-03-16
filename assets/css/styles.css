@@ -24,9 +24,11 @@ h1 {
 }
 h2 {
   font-size: 32px;
+  /* TODO line-height */
 }
 h3, h4, h5, h6 {
   font-size: 21px;
+  /* TODO line-height */
 }
 a {
   text-decoration: none;
@@ -65,12 +67,13 @@ header .social-icon img:hover {
   text-align: center;
 }
 #home h1, #home h2 {
-  text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 50px 0 25px;
 }
 #home h1 {
   background: url('../img/chalk-underline.png') bottom center no-repeat;
+  text-align: center;
+  /* space for chalk image */
+  padding: 50px 0 25px;
 }
 #home p {
   font-size: 16px;
@@ -95,6 +98,7 @@ header .social-icon img:hover {
 #home #intro h2 {
   font-family: "Cabin Sketch", cursive;
   padding-top: 25px;
+  text-align: center;
 }
 #home #intro p, #home #intro label {
   font-size: 30px;
@@ -155,8 +159,8 @@ header .social-icon img:hover {
 #home #programme h3 {
   display: inline-block;
   font-size: 24px;
-  margin: 1.5em 0 1em;
 }
+
 #home #programme time {
   font-style: italic;
   font-size: 18px;
@@ -190,10 +194,6 @@ header .social-icon img:hover {
 
 #partenaires .buffer-top {
   padding-top:40px;
-}
-
-#home #infos h3 {
-  margin: 1.5em 0;
 }
 
 .container#code-de-conduite p {
