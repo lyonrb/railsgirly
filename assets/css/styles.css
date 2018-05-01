@@ -106,7 +106,7 @@ header .social-icon img:hover {
   text-align: center;
 }
 
-#home #newsletter {
+#home #contact {
   background: #bf341c;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -117,21 +117,29 @@ header .social-icon img:hover {
   margin-bottom: 30px;
   margin-top: 50px;
 }
-#home #newsletter form {
+
+#home #contact h2 {
+  color:white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+#home #contact form {
   margin-bottom: 0;
 }
-#home #newsletter label {
+#home #contact label {
   color: white;
   font-size: 16px;
   line-height: 1em;
   margin: 0;
   margin-right: 4em;
 }
-#home #newsletter input {
+#home #contact input {
   padding: 0.8em;
   border: none;
 }
-#home #newsletter input[type="submit"] {
+#home #contact input[type="submit"] {
   background: white;
   color: #bf341c;
   font-weight: bold;
