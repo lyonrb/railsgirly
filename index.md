@@ -15,4 +15,18 @@ Elles organisent souvent des ateliers d'initiation.
 * [Wild Code School]()
 * [École 42]()
 
-<< AUTHORS.md, THANKS.md
+## Team
+
+<< AUTHORS.md
+
+## Remerciements
+
+<< THANKS.md
+
+## Sponsors&nbsp;:
+
+### 2016
+[Riri], [Fifi], [Loulou], avec les logos inline et le nom en dessous.
+
+### 2014 
+(...)
