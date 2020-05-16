@@ -3,7 +3,7 @@
 Pendant quelques années, Lyon.rb a organisé des ateliers d'initiation au code sur le modèle de [Rails&nbsp;Girls]().
 
 * [2016]() 
-* [20xx]()
+* [2015]() à [l'European Lab](http://2015.europeanlab.com/european-lab-2015-le-bilan/)
 * [19xx]()
 
 Depuis, de nombreuses écoles et centres de formation au codage ont éclos à Lyon et dans le monde.
